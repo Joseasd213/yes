@@ -121,3 +121,7 @@ p{
         font-size: 30px;
         background-color: green;
     }
+
+    .hidden{
+    display: none;
+}
