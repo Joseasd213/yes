@@ -1,12 +1,16 @@
 const botonComo = document.querySelector("#como button");
 const buttons = document.querySelector(".buttons");
 const content = document.querySelector("#content");
-function comojugar(){
-    console.log("jugar");
+const anterior = document.querySelector("#anterior");
+const siguiente = document.querySelector("#siguiente");
 
+/*Java-index*/
+
+function comojugar(){
     // Mostrar botones
     buttons.classList.remove("hidden");
     content.classList.add("hidden");
+
 }
 
 botonComo.addEventListener("click", comojugar);
@@ -19,3 +23,13 @@ function jugar(){
 }
 
 botonJugar.addEventListener("click", jugar);
+
+/*Java-Como jugar*/
+
+function anteriores(){
+    content.classList.remove("hidden");
+    buttons.classList.add("hidden");
+}
+
+
+anterior.addEventListener("click", anteriores);
