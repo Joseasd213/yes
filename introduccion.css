@@ -132,6 +132,7 @@ p{
     margin: 20px 0 0 0;
     max-width: 300px;
     padding: 20px;
+    align-items: center;
     flex-direction: column;
     border: solid 1px black;
     border-radius: 10px;
@@ -145,4 +146,10 @@ p{
 .content-2 h2{
     margin: 0;
     font-size: 20px;
+}
+
+.bg-video-2{
+    width: 300px;
+    z-index: 0;
+    padding-top: 50px;
 }
